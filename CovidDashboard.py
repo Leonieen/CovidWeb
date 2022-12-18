@@ -245,7 +245,10 @@ figL.update_layout(title="Legende Bivariate Choroplethenkarte",
                   xaxis={"title": 'Anteil der belegten Intensivbetten'},
                   )
 
+
 app = Dash(__name__, external_stylesheets=[dbc.themes.SOLAR])
+server = app.server
+
 color_text1 = {'color' : '#25938c', 'white-space': 'pre', 'textAlign': 'center'}
 app.layout = html.Div([
     html.Div([
