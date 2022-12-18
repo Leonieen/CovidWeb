@@ -1,6 +1,4 @@
-import numpy as np                              #Version 1.21.4
 import pandas as pd                             #Version 1.3.4
-import matplotlib.pyplot as plt                 #Version 3.5.0
 import plotly.express as px                     #Version 5.4.0
 import folium                                   #Version 0.12.1.post1
 import dash
